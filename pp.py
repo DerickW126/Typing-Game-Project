@@ -140,7 +140,7 @@ class Game:
                         self.input_text += event.unicode
 
             pygame.display.update()
-            self.clock.tick(60)  # Smooth 60 FPS
+            self.clock.tick(60)  
 
 if __name__ == "__main__":
     Game().run()
