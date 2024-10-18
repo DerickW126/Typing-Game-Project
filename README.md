@@ -12,9 +12,7 @@ A Python-based Typing Speed Test application that pulls random sentences from th
 
 - **Interactive Typing Test:** Measure your WPM and typing accuracy in real-time.
 - **Dynamic Content:** Sentences are fetched from the New York Times Top Stories API.
-- **Responsive UI:** Smooth input handling and user feedback.
 - **Reset Functionality:** Start a new session with one click after completing a test.
-- **Secure API Key Management:** Uses environment variables to protect sensitive data.
 
 ---
 
@@ -23,26 +21,27 @@ A Python-based Typing Speed Test application that pulls random sentences from th
 Make sure you have the following installed:
 
 - **Python 3.x**
-- **Pygame** library
-- **Requests** library
-- **python-dotenv** library
-
 ---
 
 ## **Project Setup**
 
 ### **1. Clone the Repository via SSH**
 
-Ensure that you have set up an SSH key. If you haven’t done this already, follow the [SSH Key Setup Instructions](#ssh-key-setup).
-
 Clone the repository using SSH:
 
 ```bash
-git clone git@github.com:<your-username>/typing-speed-test.git
-cd typing-speed-test
+git clone git@github.com:DerickW126/Typing-Game-Project.git
+cd Typing-Game-Project
 ```
 
-### **2. Set Up Your API Key**
+### **2. Install Dependencies**
+
+Install the necessary dependencies using `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+### **3. Set Up Your API Key**
 
 1. **Create a `.env` file** in the project root directory:
 ```bash
@@ -55,31 +54,9 @@ NYT_API_KEY=your_nyt_api_key_here
 .env
 ```
 
-4. **Load the API key in your code** using `python-dotenv`. Make sure to install the library:
+4. Load the API key in your code** using `python-dotenv`. Make sure to install the library:
 ```bash
 pip install python-dotenv
-```
-### **5. Update your Python code to read the API key from the environment:
-```bash
-from dotenv import load_dotenv
-import os
-
-# Load environment variables from .env file
-load_dotenv()
-
-# Get the NYT API key from the environment
-API_KEY = os.getenv('NYT_API_KEY')
-
-if not API_KEY:
-    raise ValueError("NYT_API_KEY is not set. Please add it to your .env file.")
-```
-
-### **3. Install Dependencies**
-
-Install the necessary dependencies using `requirements.txt`:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ### **4. Run the Application
