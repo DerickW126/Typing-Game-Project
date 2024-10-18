@@ -1,10 +1,10 @@
 # Typing Speed Test Game
 
-A Python-based Typing Speed Test application that pulls random sentences from the New York Times using their **Top Stories API**. This app measures your typing speed, accuracy, and words per minute (WPM) in a fun and interactive way. The project also demonstrates **good practices** by securing API keys and using dependency management with `requirements.txt`.
+A Python-based Typing Speed Test application that fetches random titles from the New York Times using their **Top Stories API**. This app measures your typing speed, accuracy, and words per minute (WPM) in a fun and interactive way. 
 
 ## **Demo**
 
-![Demo Gif](Demo%20Gif.gif)
+![Demo Gif](demo.gif)
 
 ---
 
