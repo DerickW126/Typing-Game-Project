@@ -16,6 +16,15 @@ A Python-based Typing Speed Test application that fetches random titles from the
 
 ---
 
+## **Technologies Used**
+
+- **Python 3.x:** The programming language used to build the game.
+- **Pygame:** A library for creating the interactive game interface and handling events.
+- **Requests:** For fetching sentences dynamically from the New York Times API.
+- **python-dotenv:** For secure API key management using environment variables.
+
+---
+
 ## **Prerequisites**
 
 Make sure you have the following installed:
