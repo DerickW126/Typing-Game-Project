@@ -63,7 +63,7 @@ NYT_API_KEY=your_nyt_api_key_here
 .env
 ```
 
-### **4. Run the Application
+### **4. Run the Application**
 
 Once your API key is set up and dependencies are installed, you can run the application:
 
